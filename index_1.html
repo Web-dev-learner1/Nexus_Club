@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Connect</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <a href="#" class="logo">Nexus Club</a>
+            <ul>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#timeline">Events Timeline</a></li>
+                <li><a href="#members">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to Nexus Club</h1>
+        <p>Empowering Students to Innovate and Inspire</p>
+        <button onclick="scrollToSection('#highlights')">Explore More</button>
+    </section>
+
+    <!-- Highlights Section -->
+    <section id="highlights">
+        <h2>Club Highlights</h2>
+        <div class="highlight-card">
+            <h3>Project Showcase</h3>
+            <p>Explore some of our latest projects created by Nexus members.</p>
+        </div>
+        <div class="highlight-card">
+            <h3>Workshops</h3>
+            <p>Regular workshops to enhance skills and foster innovation.</p>
+        </div>
+        <div class="highlight-card">
+            <h3>Collaborations</h3>
+            <p>Collaborate with industry experts and student leaders.</p>
+        </div>
+    </section>
+
+    <!-- Events Timeline Section -->
+    <section id="timeline">
+        <h2>Events Timeline</h2>
+        <div class="timeline-event">
+            <div class="event-content">
+                <h4>Innovation Bootcamp</h4>
+                <p>Join us for hands-on learning and skill-building sessions.</p>
+                <span class="date">October 2024</span>
+            </div>
+        </div>
+        <div class="timeline-event">
+            <div class="event-content">
+                <h4>Annual Hackathon</h4>
+                <p>A thrilling 24-hour challenge to create and innovate.</p>
+                <span class="date">November 2024</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Members Section -->
+    <section id="members">
+        <h2>Meet the Team</h2>
+        <div class="member">
+            <h3>Yathartha</h3>
+            <p>Web Dev Domain Head</p>
+        </div>
+        <div class="member">
+            <h3>Suraj</h3>
+            <p>Web Dev Domain Head</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script_1.js"></script>
+</body>
+</html>

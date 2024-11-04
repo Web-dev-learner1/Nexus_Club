@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #E0E0E0;
+    background: #1e1e2f;
+}
+
+/* Navbar */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #1e1e2f;
+}
+
+header nav .logo {
+    font-size: 1.5em;
+    color: #1CC5DC;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #9D50BB;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #1CC5DC, #9D50BB);
+}
+
+#hero h1 {
+    font-size: 3em;
+    color: #E0E0E0;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #f0f0f0;
+}
+
+#hero button {
+    padding: 15px 30px;
+    font-size: 1em;
+    background: #E0E0E0;
+    color: #1e1e2f;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#hero button:hover {
+    background: #C0C0C0;
+}
+
+/* Highlights Section */
+#highlights {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#highlights h2 {
+    font-size: 2.5em;
+    color: #1CC5DC;
+}
+
+.highlight-card {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.highlight-card:hover {
+    transform: scale(1.05);
+}
+
+/* Timeline Section */
+#timeline {
+    padding: 60px 20px;
+    background: #2d2d44;
+}
+
+#timeline h2 {
+    font-size: 2.5em;
+    color: #9D50BB;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.timeline-event {
+    margin: 20px 0;
+    padding: 20px;
+    background: #3d3d56;
+    border-radius: 10px;
+}
+
+/* Team Section */
+#members {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#members h2 {
+    font-size: 2.5em;
+    color: #1CC5DC;
+}
+
+.member {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.member:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background: #2d2d44;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    color: #9D50BB;
+}
+
+#contactForm {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #9D50BB;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #E0E0E0;
+}
+
+#contactForm button {
+    padding: 12px;
+    background: linear-gradient(135deg, #1CC5DC, #9D50BB);
+    color: #1E1E2F;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#contactForm button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(28, 197, 220, 0.4);
+}
